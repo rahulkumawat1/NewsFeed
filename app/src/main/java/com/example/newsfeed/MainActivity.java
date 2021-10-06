@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements NewsClicked {
     @Override
     public void onclickItem(News news) {
 
-        int colorInt = Color.parseColor("#36475D");
+        int colorInt = Color.parseColor("#2196F3");
         CustomTabColorSchemeParams defaultColors = new CustomTabColorSchemeParams.Builder()
                 .setToolbarColor(colorInt)
                 .build();
